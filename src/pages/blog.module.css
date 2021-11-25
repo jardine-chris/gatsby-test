@@ -1,0 +1,24 @@
+.blog-post {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px grey solid;
+    border-radius: 1em;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.post-title {
+    font-weight: bold;
+}
+
+.post-date {
+    justify-self: end;
+}
+
+.post-body {
+    grid-column: 1/3;
+}
